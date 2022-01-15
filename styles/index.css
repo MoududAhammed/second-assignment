@@ -1,7 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
-    background-color: white;
+    background: #AAAAAA;
 }
 header h3{
     margin-top: 87px;
@@ -48,14 +48,24 @@ button a{
     margin-left: 5%;
     margin-right: 5%;
 }
+.product{
+    width: 329px;
+    height: 476px;
+    background: #FFFFFF; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px; 
+}
 .second-section img{
     height: 256px;
     width: 300px;
     border-radius: 5px;
 }
-.star-rating i{
-    color: goldenrod;
-}
 .product-name{
     margin: 0px;
+}
+.star-rating i{
+    color: goldenrod;
 }
