@@ -152,12 +152,12 @@ footer i{
     height: 70%;
     width: 98%;
 }
-
-.social-work{
+    /* It use like global variable */
+.container{
     height: 400px;
     width: 400px;
     border: goldenrod solid 5px;
 }
-.social-work img{
+.container img{
     height: 343px;  
 }
