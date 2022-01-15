@@ -234,8 +234,8 @@ responsive for mobile done
     }
     .see-more{
         display: flex;
-        justify-content: flex-start;
-        margin-left: 10%;
+        justify-content: flex-end;
+        margin-right: 10%;
     }
     .form-section{
         display: grid;
@@ -279,8 +279,8 @@ responsive for tab mode done
     }
     .see-more{
         display: flex;
-        justify-content: flex-start;
-        margin-left: 15%;
+        justify-content: flex-end;
+        margin-right: 10%;
     }
     .form-section{
         display: grid;
