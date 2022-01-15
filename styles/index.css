@@ -53,3 +53,9 @@ button a{
     width: 300px;
     border-radius: 5px;
 }
+.star-rating i{
+    color: goldenrod;
+}
+.product-name{
+    margin: 0px;
+}
