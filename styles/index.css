@@ -90,6 +90,55 @@ button a{
     text-decoration: none;
     color: #f71165;
 }
+
+/* ensure  our best service by marquee
+------------------ */
+.marquee{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(72, 72, 248);
+    font-size: 30px;
+    color: white;
+    margin-top: 80px;
+    font-weight: 800px;
+}
+/* log in form 
+--------------- */
+.form-section{
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#form-heading{
+  display: flex;
+  justify-content: center;
+}
+.field-name{
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+.form-section input{
+    height: 2.5em;
+    width: 98%;
+}
+.form-button{
+    margin-top: 20px;
+}
+#review{
+    height: 65%;
+    width: 98%;
+}
+    /* It use like global variable */
+.container{
+    height: 400px;
+    width: 400px;
+    border: goldenrod solid 5px;
+}
+.container img{
+    height: 343px;  
+}
 /* -----------------
 footer 
 ------------------ */
@@ -117,47 +166,3 @@ footer i{
 }
 /* end footer 
 --------------- */
-/* ensure  our best service by marquee
------------------- */
-.marquee{
-    display: flex;
-    align-items: center;
-    height: 50px;
-    width: 100%;
-    background-color: rgb(72, 72, 248);
-    font-size: 30px;
-    color: white;
-    margin-top: 80px;
-    font-weight: 800px;
-}
-/* log in form 
---------------- */
-.form-section{
-    margin-left: 5%;
-    display: flex;
-    justify-content: space-evenly;
-}
-.field-name{
-    margin-bottom: 0px;
-    margin-left: 10px;
-}
-.form-section input{
-    height: 2.5em;
-    width: 98%;
-}
-.form-button{
-    margin-top: 20px;
-}
-#review{
-    height: 70%;
-    width: 98%;
-}
-    /* It use like global variable */
-.container{
-    height: 400px;
-    width: 400px;
-    border: goldenrod solid 5px;
-}
-.container img{
-    height: 343px;  
-}
