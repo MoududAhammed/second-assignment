@@ -135,27 +135,29 @@ footer i{
 .form-section{
     margin-left: 5%;
     display: flex;
+    justify-content: space-evenly;
 }
 .field-name{
     margin-bottom: 0px;
+    margin-left: 10px;
 }
 .form-section input{
-    height: 1.5em;
-    width: 250px;
+    height: 2.5em;
+    width: 98%;
 }
-.registration-button{
+.form-button{
     margin-top: 20px;
 }
 #review{
-    height: 220px;
-    width: 400px;
+    height: 70%;
+    width: 98%;
 }
+
 .social-work{
     height: 400px;
     width: 400px;
     border: goldenrod solid 5px;
 }
 .social-work img{
-    height: 400px;
-    /* width: 400px; */
+    height: 343px;  
 }
