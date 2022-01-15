@@ -134,6 +134,7 @@ footer i{
 --------------- */
 .form-section{
     margin-left: 5%;
+    display: flex;
 }
 .field-name{
     margin-bottom: 0px;
@@ -144,4 +145,17 @@ footer i{
 }
 .registration-button{
     margin-top: 20px;
+}
+#review{
+    height: 220px;
+    width: 400px;
+}
+.social-work{
+    height: 400px;
+    width: 400px;
+    border: goldenrod solid 5px;
+}
+.social-work img{
+    height: 400px;
+    /* width: 400px; */
 }
