@@ -45,8 +45,10 @@ button a{
 .second-section{
     display:grid;
     grid-template-columns: repeat(3,1fr);
-    margin-left: 5%;
-    margin-right: 5%;
+    grid-gap: 30px;
+    margin-left: 10%;
+    margin-right: 10%; 
+    /* align-items: center; */
 }
 .product{
     width: 329px;
@@ -57,6 +59,7 @@ button a{
     justify-content: center;
     align-items: center;
     border-radius: 5px; 
+    /* margin: 0px; */
 }
 .second-section img{
     height: 256px;
