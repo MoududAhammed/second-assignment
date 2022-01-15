@@ -1,0 +1,36 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    background-color: white;
+}
+header h3{
+    margin-top: 87px;
+    margin-left: 10%;
+    font: size 35px; ;
+}
+section{
+    display: flex;
+}
+article{
+    margin-left: 10%;
+    width: 50%;
+}
+article h1{
+    font-size: 52px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+button{
+    background:#E02C6D;
+    border-radius: 20px;
+    padding: 10px 24px;
+
+}
+button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.arrow{
+    margin-left: 10px;
+}
