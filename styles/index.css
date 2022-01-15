@@ -202,3 +202,51 @@ footer i{
 /*------------------
 responsive for mobile done 
 -----------------------== */
+@media only screen and (min-width:577px) and (max-width:768px){
+
+    header h3{
+        display: flex;
+        justify-content: center;
+    }
+
+    .first-section{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .second-section{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .second-section img{
+        height: 245px;
+        width: 250px;
+        border-radius: 5px;
+    }
+    .product{
+        width: 265px;
+        height: 476px;
+    }
+    .see-more{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 10%;
+    }
+    .form-section{
+        display: grid;
+        grid-template-columns: repeat(2,1fr); 
+        grid-gap: 5px;  
+    }
+    .container{
+        width: 265px;
+    }
+    #review{
+        margin-left: 2px;
+        height: 60%;
+        width: 96%;   
+    }
+    #form3{
+        margin-top: 20px;
+    }
+}
