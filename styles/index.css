@@ -269,18 +269,22 @@ responsive for tab mode done
     }
     .second-section{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(3,1fr);
         justify-items: center;
     }
     .second-section img{
-        height: 256px;
-        width: 280px;
+        height: 200px;
+        width: 200px;
         border-radius: 5px;
+    }
+    .product{
+        width: 265px;
+        height: 450px;
     }
     .see-more{
         display: flex;
         justify-content: flex-end;
-        margin-right: 10%;
+    
     }
     .form-section{
         display: grid;
