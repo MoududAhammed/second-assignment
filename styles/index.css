@@ -72,3 +72,30 @@ button a{
 .star-rating i{
     color: goldenrod;
 }
+/* -----------------
+footer 
+------------------ */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: blanchedalmond;
+    background-color: rgb(2, 2, 29);
+    margin-top: 250px;
+}
+#footer-heading{
+    margin-top: 50px;
+}
+.footer-text{
+    margin:0px;
+}
+footer span{
+    margin:20px 0px 50px 0px;
+}
+footer i{
+   margin: 0px 16px;
+   font-size: 2em;
+}
+/* end footer 
+--------------- */
