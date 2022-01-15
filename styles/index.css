@@ -173,7 +173,7 @@ footer i{
  Responsive for mobile
 ------------------- */
 
-@media only screen and (max-width:688px){
+@media only screen and (min-width:0px) and (max-width:688px){
 
     .first-section{
         display: flex;
@@ -202,6 +202,10 @@ footer i{
 /*------------------
 responsive for mobile done 
 -----------------------== */
+
+/*------------------------
+ responsive for Tab start 
+-------------------------- */
 @media only screen and (min-width:577px) and (max-width:768px){
 
     header h3{
@@ -236,7 +240,8 @@ responsive for mobile done
     .form-section{
         display: grid;
         grid-template-columns: repeat(2,1fr); 
-        grid-gap: 5px;  
+        grid-gap: 5px; 
+        justify-items: center; 
     }
     .container{
         width: 265px;
@@ -249,4 +254,44 @@ responsive for mobile done
     #form3{
         margin-top: 20px;
     }
+}
+/* -------------------------
+responsive for tab mode done 
+------------------------------- */
+@media only screen and (min-width:769px) and (max-width:1400px) {
+    .first-section h1{
+        font-size: 35px;
+    }
+    .first-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .second-section{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+    }
+    .second-section img{
+        height: 256px;
+        width: 280px;
+        border-radius: 5px;
+    }
+    .see-more{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 15%;
+    }
+    .form-section{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+    }
+    .container{
+        width: 350px;
+    }
+    #form3{
+        margin-top: 20px;
+    }
+
 }
